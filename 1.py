@@ -1,0 +1,16 @@
+#блоки введення
+name=input("Ім'я:")
+name2=input("Прізвище:")
+number=input("Номер телефону:")
+street=input("Нвзва вулиці:")
+house=input("Номер будинку:")
+apartment=input("Номер квартири:")
+city=input("Місто:")
+index=input("Індекс:")
+country=input("Країна:")
+#блоки виведення
+print(name,name2) 
+print(number)
+print("Str.", street, house + ",", "ap.", apartment + ",", city)
+print(index)
+print(country)
